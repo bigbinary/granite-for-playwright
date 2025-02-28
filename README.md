@@ -17,3 +17,6 @@ You can learn how to automate the QA work on this project using Playwright by fo
 3. Run the command `./bin/setup` from the root of the directory. This will install all the ruby gems and npm packages required to run the project.
 4. Open a new terminal on the root of the repository and execute the command `bundle exec rails server`. This starts the rails server on the local machine. Do not stop the execution or close this terminal while you are working on the automation project.
 5. Open a new terminal on the root of the repository and execute the commanand `./bin/webpacker-dev-server`. This starts the webpack dev server and compiles all the frontend code. Do not stop the execution or close this terminal while you are working on the automation project.
+
+
+Hello world
