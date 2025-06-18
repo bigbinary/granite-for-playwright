@@ -6,7 +6,7 @@ jobs:
     #No. of servers/machines
     parallelism: 1
     docker:
-      - image: cimg/ruby:3.2.2
+      - image: cimg/ruby:3.2.4
       - image: cimg/redis:5.0.14
       - image: cimg/postgres:9.6
         environment:
@@ -23,7 +23,7 @@ jobs:
       - checkout
       - node/install:
           install-yarn: true
-          node-version: "18.12"
+          node-version: "18.x"
       - run: node --version
       - run: gem install bundler:2.2.20
       #install sqlite dependency
