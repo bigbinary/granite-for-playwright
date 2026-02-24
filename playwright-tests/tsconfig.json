@@ -28,13 +28,7 @@
       "@utils": ["utils"],
       "@utils/*": ["utils/*"],
       "@types": ["types.d.ts"],
-      "@apis": ["apis"],
-      "@neetoplaywright": [
-        "../node_modules/@bigbinary/neeto-playwright-commons"
-      ],
-      "@neetoplaywright/*": [
-        "../node_modules/@bigbinary/neeto-playwright-commons/*"
-      ]
+      "@apis": ["apis"]
     },
     "skipLibCheck": true
   }
