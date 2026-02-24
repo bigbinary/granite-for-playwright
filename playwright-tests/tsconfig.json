@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "Node16",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./e2e",
+    "moduleResolution": "node16",
+    "lib": ["ES2021", "dom"],
+    "noEmit": true,
+    "paths": {
+      /*
+       * This mapping is relative to "baseUrl".
+       */
+      "@auth/*": ["auth/*"],
+      "@config/*": ["config/*"],
+      "@selectors": ["constants/selectors"],
+      "@selectors/*": ["constants/selectors/*"],
+      "@texts": ["constants/texts"],
+      "@texts/*": ["constants/texts/*"],
+      "@constants/*": ["constants/*"],
+      "@routes": ["constants/routes.ts"],
+      "@fixtures/*": ["fixtures/*"],
+      "@fixtures": ["fixtures"],
+      "@poms/*": ["poms/*"],
+      "@poms": ["poms"],
+      "@tests/*": ["tests/*"],
+      "@utils": ["utils"],
+      "@utils/*": ["utils/*"],
+      "@types": ["types.d.ts"],
+      "@apis": ["apis"]
+    },
+    "skipLibCheck": true
+  }
+}
